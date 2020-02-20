@@ -6,4 +6,12 @@ export default class ApplicationController extends Controller {
   callAction(action, params) {
     return { action, params };
   }
+
+  // Renaming the action parameter
+  // to e.g. 'aktion' would work.
+  //
+  // @action
+  // callAction(aktion, params) {
+  //   return { aktion, params };
+  // }
 }
